@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>Array with Math</title>
+</head>
+
+<body>
+    
+    <h1>We're gonna do math using array today.</h1>
+    <p id="result"></p>
+    <p id="maxMin"></p>
+
+<script>
+
+    var numbers = [10, 5, 8, 22, 3];
+   
+    //Finding maximum and minimum
+    
+    var max = Math.max(...numbers);
+    var max = Math.min(...numbers);
+
+     //Displaying Maximum and Minimum
+
+    document.write("Maximum:", max + "<br>");
+    document.write("Minimum:", min);
+
+
+    //Working with skills array
+    var skills = ["Math", "English Language", "English Literature", "Science", "History", "G.P" ];
+    document.getElementById("result").innerHTML = "Skill:" + skills[3];
+</script>
+    </body>
+
+    </html>
